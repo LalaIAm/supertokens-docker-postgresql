@@ -2,7 +2,7 @@ core_config_version: 0
 postgresql_config_version: 0
 postgresql_password: "ltQLvP4kmEYaYgKh62Ch"
 postgresql_user: "postgres"
-host: "0.0.0.0"
+host: "supertokens-docker-postgresql-production.up.railway.app"
 disable_telemetry: true
 postgresql_host: "containers-us-west-156.railway.app"
 postgresql_port: 6679
