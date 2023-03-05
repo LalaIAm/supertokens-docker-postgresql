@@ -1,6 +1,10 @@
 core_config_version: 0
 postgresql_config_version: 0
-postgresql_password: "root"
-postgresql_user: "root"
+postgresql_password: "ltQLvP4kmEYaYgKh62Ch"
+postgresql_user: "postgres"
 host: "0.0.0.0"
 disable_telemetry: true
+postgresql_host: "containers-us-west-156.railway.app"
+postgresql_port: 6679
+postgresql_database_name: "railway"
+postgresql_connection_uri: "postgresql://postgres:ltQLvP4kmEYaYgKh62Ch@containers-us-west-156.railway.app:6697/railway"
