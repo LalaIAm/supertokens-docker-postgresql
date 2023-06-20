@@ -93,9 +93,9 @@ then
     fi
 
     # check if access token signing key update interval is passed
-    if [ ! -z $ACCESS_TOKEN_SIGNING_KEY_UPDATE_INTERVAL ]
+    if [ ! -z $ACCESS_TOKEN_DYNAMIC_SIGNING_KEY_UPDATE_INTERVAL ]
     then
-        echo "access_token_signing_key_update_interval: $ACCESS_TOKEN_SIGNING_KEY_UPDATE_INTERVAL" >> $CONFIG_FILE
+        echo "access_token_dynamic_signing_key_update_interval: $ACCESS_TOKEN_DYNAMIC_SIGNING_KEY_UPDATE_INTERVAL" >> $CONFIG_FILE
     fi
 
     # check if refresh token validity is passed
@@ -182,6 +182,26 @@ then
     if [ ! -z $IP_DENY_REGEX ]
     then
         echo "ip_deny_regex: $IP_DENY_REGEX" >> $CONFIG_FILE
+    fi
+
+    if [ ! -z $TOTP_MAX_ATTEMPTS ]
+    then
+        echo "totp_max_attempts: $TOTP_MAX_ATTEMPTS" >> $CONFIG_FILE
+    fi
+
+    if [ ! -z $TOTP_RATE_LIMIT_COOLDOWN_SEC ]
+    then
+        echo "totp_rate_limit_cooldown_sec: $TOTP_RATE_LIMIT_COOLDOWN_SEC" >> $CONFIG_FILE
+    fi
+
+    if [ ! -z $SUPERTOKENS_SAAS_SECRET ]
+    then
+        echo "supertokens_saas_secret: $SUPERTOKENS_SAAS_SECRET" >> $CONFIG_FILE
+    fi
+
+    if [ ! -z $SUPERTOKENS_DEFAULT_CDI_VERSION ]
+    then
+        echo "supertokens_default_cdi_version: $SUPERTOKENS_DEFAULT_CDI_VERSION" >> $CONFIG_FILE
     fi
 
     # check if info log path is not passed
