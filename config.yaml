@@ -1,10 +1,9 @@
 core_config_version: 0
 postgresql_config_version: 0
-postgresql_password: "ltQLvP4kmEYaYgKh62Ch"
-postgresql_user: "postgres"
-host: "supertokens-docker-postgresql-production.up.railway.app"
+postgresql_password: "oO09vsiUxC62Gu7SpL7Cnr7LKYDP3egy"
+postgresql_user: "getfamilyr"
 disable_telemetry: true
-postgresql_host: "containers-us-west-156.railway.app"
-postgresql_port: 6679
-postgresql_database_name: "railway"
-postgresql_connection_uri: "postgresql://postgres:ltQLvP4kmEYaYgKh62Ch@containers-us-west-156.railway.app:6697/railway"
+postgresql_host: "dpg-ci8s8059aq0ee281harg-a"
+postgresql_port: 5432
+postgresql_database_name: "familyrdb_pwm9"
+postgresql_connection_uri: "postgresql://getfamilyr:oO09vsiUxC62Gu7SpL7Cnr7LKYDP3egy@dpg-ci8s8059aq0ee281harg-a.ohio-postgres.render.com/familyrdb_pwm9"
