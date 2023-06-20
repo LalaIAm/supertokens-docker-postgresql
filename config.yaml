@@ -7,3 +7,8 @@ postgresql_host: "dpg-ci8s8059aq0ee281harg-a"
 postgresql_port: 5432
 postgresql_database_name: "familyrdb_pwm9"
 postgresql_connection_uri: "postgresql://getfamilyr:oO09vsiUxC62Gu7SpL7Cnr7LKYDP3egy@dpg-ci8s8059aq0ee281harg-a.ohio-postgres.render.com/familyrdb_pwm9"
+api_keys: "yabbadabbadooyabbadabbadoo"
+supertokens_host: "supertokens-docker-postgresql-production.up.railway.app"
+host: "0.0.0.0"
+info_log_path: null 
+error_log_path: null
